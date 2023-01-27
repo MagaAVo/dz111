@@ -1,18 +1,10 @@
 public class main {
 
     public static void main(String[] args) {
+        int ticket = 2500; // Цена билета
+        int rub = 20; // стоимость одного бонуса
+        int mile = ticket / rub;
 
-        int eaters = 5; // сколько людей будут есть
-
-        int water = 3000; // миллилитров воды
-        int potatoes = 5; // картофелин
-        int chicken = 6; // куриных бёдер
-        int spices = 10; // ложек специй
-
-        System.out.println("Сварили суп. На одного человека вышло:");
-        System.out.println((water / eaters) + " миллилитров воды");
-        System.out.println((potatoes / eaters) + " картофелин(а)");
-        System.out.println((chicken / eaters) + " куриных(ое) бёдер(ро)");
-        System.out.println((spices / eaters) + " ложек(ка) специй");
+        System.out.println("Колличество начисленных миль" + mile);
     }
 }
